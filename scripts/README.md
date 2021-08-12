@@ -14,7 +14,7 @@ General OS configuration. Content currently installs Chocolatey, Git, and then s
 
 This was taken from Ansible as its a very complete winrm configuration job.  Will create a self-signed certificate, assign it to winrm, then enable authentication methods while ensuring unencrypted authentication remains disabled.  Bonus points: the resulting server is ready for Ansible, too :)
 
-It is wrapped in <powershell> blocks so that it can run during an AWS provisioning
+It is wrapped in \<powershell\> blocks so that it can run during an AWS provisioning
 
 ## wmf51.cmd
 
