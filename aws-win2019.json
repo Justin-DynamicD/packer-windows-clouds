@@ -30,7 +30,7 @@
       "ami_virtualization_type": "hvm",
       "associate_public_ip_address": true,
       "instance_type": "{{ user `instance_type` }}",
-      "user_data_file": "{{template_dir}}/scripts/bootstrap_winrm.txt",
+      "user_data_file": "{{template_dir}}/scripts/bootstrap_aws.txt",
       "communicator": "winrm",
       "winrm_insecure": true,
       "winrm_timeout": "10m",

@@ -10,7 +10,7 @@ Final script run, scrubs temp directories and whitespace to ensure final machine
 
 General OS configuration. Content currently installs Chocolatey, Git, and then some DSC Modules to aide in deployment. Obviously all of this can be changed.
 
-## bootstrap_winrm.txt
+## bootstrap_aws.txt
 
 This was taken from Ansible as its a very complete winrm configuration job.  Will create a self-signed certificate, assign it to winrm, then enable authentication methods while ensuring unencrypted authentication remains disabled.  Bonus points: the resulting server is ready for Ansible, too :)
 
