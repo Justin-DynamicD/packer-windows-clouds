@@ -9,7 +9,8 @@ PowerShell:
 ```PowerShell
 $Env:AWS_ACCESS_KEY_ID=""
 $Env:AWS_SECRET_ACCESS_KEY=""
-$Env:AWS_SESSION_TOKEN="us-west-2"
+$Env:AWS_SESSION_TOKEN=""
+$Env:AWS_REGION="us-west-2"
 ```
 
 Bash:
